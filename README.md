@@ -49,6 +49,8 @@ To run:
 bunx cypress open
 ```
 
+In Cypress -> E2E Testing -> Chrome -> Click `setup.cy.js`
+
 ## Thoughts
 
 - **iPad Interface**
