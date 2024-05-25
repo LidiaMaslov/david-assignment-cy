@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[Video](https://youtu.be/Wr0gch-lWwE)
+Watch the [Youtube Video](https://youtu.be/Wr0gch-lWwE)!
 
 - This project is created with Cypress
 - I used Cypress Commands to create Component Accessor methods
