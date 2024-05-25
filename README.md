@@ -51,6 +51,12 @@ bunx cypress open
 
 In Cypress -> E2E Testing -> Chrome -> Click `setup.cy.js`
 
+## Important
+
+- Please see the code in
+    - Test `cypress/e2e/setup.cy.js`
+    - Commands `cypress/support/commands.js`
+
 ## Thoughts
 
 - **iPad Interface**
