@@ -14,7 +14,7 @@ cy.modalWindow('Account').then(() => {
 ```
 - Also hidden away the element action logic
     - subMenu finds a line where toggle exists
-    - toggleOn toggles a toggle to specific state
+    - toggleOn switches a toggle state
 ```javascript
 cy.subMenu('Use SSL').toggleOn()
 ```
