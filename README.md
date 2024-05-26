@@ -60,24 +60,26 @@ In Cypress -> E2E Testing -> Chrome -> Click `setup.cy.js`
 ## Thoughts
 
 - **iPad Interface**
-  - The interface has clearly defined parts.
-  - The `data-typename` attribute helps identify the different sections of each component.
-    - Some IDs are too long, but they are:
-      - Useful for Page Objects.
-      - Useful to match a part of the ID in a difficult case. Created `containsPartialId`
-  - It's possible to create specific methods for each component, making the code easier to read.
+  - The interface is clearly divided into distinct parts.
+  - The `data-typename` attribute helps in identifying the different sections of each component.
+    - Some IDs are lengthy, but they are:
+      - Helpful for identifying parts of the ID in complex scenarios, leading to the creation of `containsPartialId`.
+  - I like the way to develop specific methods for each component, enhancing the readability of the test code.
 
 - **Cypress**
-  - The Cypress approach uses a procedural style similar to the test script you provided. The code is often organized into:
+  - Cypress recommends a procedural style, similar to the test script you gave to me. The organization typically includes:
     - Reusable steps.
     - Component-specific methods.
     - Custom Cypress commands.
     - Extensive use of `test-data` attributes.
-  - Page Objects can also be implemented in Cypress, looking very similar to Java Page Objects code.
-  - The development cycle with Cypress is quicker than with Java due to:
+  - Page Objects can be used in Cypress, resembling Java Page Objects.
+  - The development process with Cypress is faster than with Java, thanks to:
     - Hot-reloading.
-    - Ability to run parts of tests.
-    - A nice debugging interface.
-    - The ability to pause the user interface.
-      - Cypress operates in a GUI process and stops all other processes, making it much more stable.
+    - The ability to run specific parts of tests.
+    - A user-friendly debugging interface.
+    - The feature to pause the user interface.
+      - Cypress runs in a GUI process and halts all other processes, enhancing stability.
+    - Cypress is more stable by default.
+      - For example Cypress can scroll lists to find an element, Selenium - will fail.  
+
 
